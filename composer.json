@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Economic\\": "src/"
+            "Economic\\": "src/Economic/"
         }
     }
 }
