@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "EconomicSoap\\": "src/Economic/"
+            "Economic\\": "src/Economic/"
         }
     }
 }
