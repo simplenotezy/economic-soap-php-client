@@ -1,5 +1,5 @@
 {
-    "name": "economic/soap-php-client",
+    "name": "simplenotezy/economic-soap-php-client",
     "description": "PHP client for E-conomic SOAP API",
     "require-dev": {
         "phpunit/phpunit": "3.7"
