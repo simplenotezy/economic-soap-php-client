@@ -13,13 +13,13 @@ class CashBookEntry extends Object
 
     protected $handle;
 
-    /**
-     * @return mixed
-     */
-    public function getHandle()
-    {
-        return $this->handle;
-    }
+    // /**
+    //  * @return mixed
+    //  */
+    // public function getHandle()
+    // {
+    //     return $this->handle;
+    // }
 
     /**
      * @param mixed $handle
