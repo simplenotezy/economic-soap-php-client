@@ -26,6 +26,19 @@ class CashBookService extends Service
             throw new EconomicException($e->getMessage());
         }
     }
+    
+    public function createCashBookEntry(array $parameters)
+    {
+        $this->client->connect();
+
+        try {
+            $response = $this->client->CashBookEntry_CreateFromDataArray($parameters);
+
+            return $response;
+        } catch (\SoapFault $e) {
+            throw new EconomicException($e->getMessage());
+        }
+    }
 
     public function updateEntryFromInvoice(CashBookEntry $entry, Invoice $invoice, $amount)
     {
